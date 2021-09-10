@@ -1,0 +1,28 @@
+{
+  "name": "exitkiosk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.0",
+    "autoprefixer": "^10.0.2",
+    "laravel-mix": "^6.0.30",
+    "tailwindcss": "^2.0.1"
+  },
+  "dependencies": {
+    "postcss-import": "^14.0.2"
+  }
+}

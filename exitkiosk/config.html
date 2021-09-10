@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exit Kiosk</title>
+    <link rel="stylesheet" href="dist/css/app.css">
+</head>
+<body class="bg-gray-200">
+<div class="bg-white px-4 py-5 border-b border-gray-200 sm:px-6">
+    <h3 class="text-lg leading-6 font-medium text-gray-900">
+        Exit Kiosk ^^
+        <span class="float-right text-xs">Versi&oacute;n 1.0.0</span>
+    </h3>
+</div>
+<div class="w-full mx-auto max-w-2xl mt-12 mb-4 bg-white p-4 md:p-8 rounded-md">
+    <div>
+        <label for="keyword_to_exit" class="block text-sm font-medium text-gray-700">Palabra(s) para salir del kiosk mode</label>
+        <div class="mt-1">
+            <input type="text" name="keyword_to_exit" id="keyword_to_exit" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md" placeholder="exitkiosk" aria-describedby="keyword_to_exit-description">
+        </div>
+        <p class="mt-2 text-sm text-gray-500" id="keyword_to_exit-description">Escribe la palabra que desees usar para salir del modo kiosko.</p>
+    </div>
+    <button type="button" id="btn_save" class="mt-2 inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        <div class="w-full text-center">
+            Guardar
+        </div>
+    </button>
+    <div class="w-full flex flex-col items-center space-y-4 mt-6 hidden" id="container_status">
+        <div class="w-full bg-white shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div class="p-4">
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 img-status" id="img_success">
+                        <svg class="h-6 w-6 text-green-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div class="flex-shrink-0 img-status" id="img_error">
+                        <svg class="h-6 w-6 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="ml-3 w-0 flex-1 pt-0.5">
+                        <p class="text-sm font-medium text-gray-900" id="txt_status">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-white px-4 py-5 border-b border-gray-200 sm:px-6 fixed bottom-0 w-full">
+    <div class="text-xs leading-6 font-medium text-gray-600">
+        <a href="https://github.com/danidoble" target="_blank" rel="noopener" class="text-xs">Created by danidoble</a>
+    </div>
+</div>
+<script src="dist/js/config.js" defer></script>
+</body>
+</html>

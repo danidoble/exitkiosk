@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener((e=>{e===chrome.runtime.OnInstalledReason.INSTALL&&chrome.tabs.create({url:"./config.html"})})),chrome.tabs.onUpdated.addListener(((e,t,o)=>{chrome.storage.sync.get({keyword_to_exit:"exitkiosk"},(async r=>{"loading"===t.status&&o.url&&o.url.indexOf(r.keyword_to_exit)>-1&&await chrome.tabs.remove(e)}))}));
