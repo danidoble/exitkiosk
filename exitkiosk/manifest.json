@@ -1,6 +1,4 @@
 {
-  "update_url": "https://clients2.google.com/service/update2/crx",
-
   "name": "Exit Kiosk ^^",
   "version_name": "v1.0.0",
   "description": "Cierra la pestana que tenga la palabra que definas por defecto es exitkiosk.",
@@ -11,6 +9,7 @@
     "16": "img/img_16.png",
     "24": "img/img_24.png",
     "32": "img/img_32.png",
+    "48": "img/img_48.png",
     "64": "img/img_64.png",
     "128": "img/img_128.png",
     "256": "img/img_256.png",
@@ -29,6 +28,7 @@
       "16": "img/img_16.png",
       "24": "img/img_24.png",
       "32": "img/img_32.png",
+      "48": "img/img_48.png",
       "64": "img/img_64.png",
       "128": "img/img_128.png",
       "256": "img/img_256.png",

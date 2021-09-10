@@ -1,4 +1,9 @@
 .idea
 node_modules
 vendor
-exitkiosk/*.crx
+*.crx
+*.zip
+*.tar
+*tar.gz
+*.7z
+*.rar
