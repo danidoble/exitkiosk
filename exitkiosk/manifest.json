@@ -2,7 +2,7 @@
   "name": "Exit Kiosk",
   "version_name": "v1.0.1",
   "description": "Cierra la pestana que tenga la palabra que definas por defecto es exitkiosk.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Daniel Sandoval <danidoble>",
   "manifest_version": 3,
   "icons": {
