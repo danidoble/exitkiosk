@@ -73,8 +73,8 @@ function __(key = "") {
             return (typeof ja_lang === "undefined" || !ja_lang[key]) ? key : ja_lang[key];
         case "ko":
             return (typeof ko_lang === "undefined" || !ko_lang[key]) ? key : ko_lang[key];
-        case "zh":
-            return (typeof zh_lang === "undefined" || !zh_lang[key]) ? key : zh_lang[key];
+        case "zh_CN":
+            return (typeof zh_cn_lang === "undefined" || !zh_cn_lang[key]) ? key : zh_cn_lang[key];
         case "fr":
             return (typeof fr_lang === "undefined" || !fr_lang[key]) ? key : fr_lang[key];
         default:

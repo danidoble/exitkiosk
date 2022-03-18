@@ -1,4 +1,4 @@
-const zh_lang = {
+const zh_cn_lang = {
     "Configuration saved.": "配置已保存。",
     "Error saving configuration.": "保存配置时出错。",
     "Exit Kiosk": "退出自助服务终端模式",

@@ -9,7 +9,7 @@ mix
         './resources/js/lang/es.js',
         './resources/js/lang/ja.js',
         './resources/js/lang/ko.js',
-        './resources/js/lang/zh.js',
+        './resources/js/lang/zh_CN.js',
         './resources/js/lang/fr.js',
         './resources/js/config.js'
     ], './exitkiosk/dist/js/config.js')
