@@ -1,0 +1,8 @@
+{
+  "appName": {
+    "message": "키오스크 종료"
+  },
+  "appDesc": {
+    "message": "선택한 단어가 포함된 탭을 닫습니다. 기본적으로 \"exitkiosk\"입니다."
+  }
+}

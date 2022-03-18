@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Exit Kiosk",
+    "description": "Close the tab which contains some word of your choice, by default is \"exitkiosk\""
+  },
+  "appDesc": {
+    "message": "This extension close tab which contains some word of your choice",
+    "description": "Close the tab which contains some word of your choice, by default is \"exitkiosk\""
+  }
+}

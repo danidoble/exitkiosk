@@ -1,7 +1,8 @@
 {
-  "name": "Exit Kiosk",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
   "version_name": "v1.1.0",
-  "description": "Close the tab which contains some word of your choice, by default is \"exitkiosk\"",
   "version": "1.0.1",
   "author": "Daniel Sandoval <danidoble>",
   "manifest_version": 3,
