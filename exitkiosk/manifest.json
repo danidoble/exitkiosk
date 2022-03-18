@@ -3,7 +3,7 @@
   "description": "__MSG_appDesc__",
   "default_locale": "en",
   "version_name": "v1.1.0",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Daniel Sandoval <danidoble>",
   "manifest_version": 3,
   "icons": {
