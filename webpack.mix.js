@@ -6,6 +6,11 @@ mix
         './resources/js/background.js'
     ], './exitkiosk/dist/js/background.js')
     .scripts([
+        './resources/js/lang/es.js',
+        './resources/js/lang/ja.js',
+        './resources/js/lang/ko.js',
+        './resources/js/lang/zh.js',
+        './resources/js/lang/fr.js',
         './resources/js/config.js'
     ], './exitkiosk/dist/js/config.js')
     .postCss('resources/css/app.css', 'css', [

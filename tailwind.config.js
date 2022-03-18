@@ -1,13 +1,11 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    mode: 'jit',
-    purge: [
+    content: [
         './exitkiosk/**/*.html',
         './exitkiosk/**/*.js',
     ],
     darkMode: 'class',
-
     theme: {
         extend: {
             fontFamily: {
