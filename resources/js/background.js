@@ -11,10 +11,17 @@ chrome.runtime.onInstalled.addListener((reason) => {
  * @param {object} changeInfo
  * @param {tab} Tab
  */
-chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab)=>{
-    chrome.storage.sync.get({keyword_to_exit: 'exitkiosk'}, async (result)=> {
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+    chrome.storage.sync.get({keyword_to_exit: 'exitkiosk'}, async (result) => {
         if (changeInfo.status === "loading" && tab.url && tab.url.indexOf(result.keyword_to_exit) > -1) {
             await chrome.tabs.remove(tabId);
         }
     });
 })
+
+/**
+ * Just for own custom projects
+ */
+chrome.runtime.onMessageExternal.addListener(() => {
+    return true;
+});
