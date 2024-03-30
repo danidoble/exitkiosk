@@ -1,12 +1,9 @@
-import Alpine from 'alpinejs'
-
-window.Alpine = Alpine
-Alpine.start()
 import {es_lang} from "./lang/es.js";
 import {ja_lang} from "./lang/ja.js";
 import {ko_lang} from "./lang/ko.js";
 import {zh_cn_lang} from "./lang/zh_CN.js";
 import {fr_lang} from "./lang/fr.js";
+import {exit_version} from "./version.js";
 
 const container_status = document.getElementById('container_status');
 const btn_status = document.getElementById('btn_save');
@@ -49,6 +46,7 @@ async function renderInputsKeywords(keywords = []) {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
+    await migrateKeyword();
     const configuration = await chrome.storage.sync.get({keywords: ['exitkiosk'], lang_app: 'en'});
     setLanguage(configuration.lang_app);
 
@@ -185,4 +183,19 @@ function applyLang() {
     donate.textContent = __("If you feel like supporting this project, you can buy me a coffee or maybe a toast");
     donate_link.textContent = __("Donate");
     add_keyword.textContent = __("Add keyword");
+}
+
+async function migrateKeyword() {
+    const previousKeyword = await chrome.storage.sync.get({'keyword_to_exit': null, 'version': null});
+    if (previousKeyword.version !== null) {
+        return;
+    }
+    const keywords = await chrome.storage.sync.get({keywords: []});
+    if (previousKeyword.keyword_to_exit) { // remove old keyword if exists
+        await chrome.storage.sync.remove('keyword_to_exit');
+        keywords.keywords.push(previousKeyword.keyword_to_exit);
+        // make unique keywords, removing duplicates
+        const uniqueKeywords = [...new Set(keywords.keywords)];
+        await chrome.storage.sync.set({keywords: uniqueKeywords, 'version': `v${exit_version}`});
+    }
 }

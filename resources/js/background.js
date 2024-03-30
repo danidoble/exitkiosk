@@ -41,5 +41,5 @@ async function saveKeywords(previousKeyword = 'exitkiosk') {
     keywords.push(previousKeyword);
     // make unique keywords, removing duplicates
     const uniqueKeywords = [...new Set(keywords)];
-    await chrome.storage.sync.set({keywords: uniqueKeywords});
+    await chrome.storage.sync.set({keywords: uniqueKeywords, version: `v1.2.0`});
 }
