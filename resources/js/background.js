@@ -1,20 +1,24 @@
 chrome.runtime.onInstalled.addListener(async (reason) => {
-    // if reason is updated, move the old keyword to the new keywords array
-    if (reason === chrome.runtime.OnInstalledReason.UPDATE) {
-        const previousKeyword = await chrome.storage.sync.get('keyword_to_exit');
-        if (previousKeyword.keyword_to_exit) { // remove old keyword if exists
-            await chrome.storage.sync.remove('keyword_to_exit');
-            await saveKeywords(previousKeyword.keyword_to_exit);
+    try {
+        // if reason is updated, move the old keyword to the new keywords array
+        if (reason === chrome.runtime.OnInstalledReason.UPDATE) {
+            const previousKeyword = await chrome.storage.sync.get('keyword_to_exit');
+            if (previousKeyword.keyword_to_exit) { // remove old keyword if exists
+                await chrome.storage.sync.remove('keyword_to_exit');
+                await saveKeywords(previousKeyword.keyword_to_exit);
+            }
         }
-    }
 
-    if (reason === chrome.runtime.OnInstalledReason.INSTALL) {
-        await saveKeywords();
-    }
+        if (reason === chrome.runtime.OnInstalledReason.INSTALL) {
+            await saveKeywords();
+        }
 
-    // open options page after install or update
-    if (reason === chrome.runtime.OnInstalledReason.UPDATE || reason === chrome.runtime.OnInstalledReason.INSTALL) {
-        await chrome.runtime.openOptionsPage();
+        // open options page after install or update
+        if (reason === chrome.runtime.OnInstalledReason.UPDATE || reason === chrome.runtime.OnInstalledReason.INSTALL) {
+            await chrome.runtime.openOptionsPage();
+        }
+    } catch (e) {
+        console.log(e);
     }
 });
 
