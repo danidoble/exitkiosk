@@ -1,17 +1,20 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+import defaultTheme from 'tailwindcss/defaultTheme';
+import forms from '@tailwindcss/forms';
+import typography from '@tailwindcss/typography';
+import aspect_ratio from '@tailwindcss/aspect-ratio';
 
 module.exports = {
     content: [
-        './exitkiosk/**/*.html',
-        './exitkiosk/**/*.js',
+        './exitkiosk/*.html',
+        './resources/**/*.js',
     ],
     darkMode: 'class',
     theme: {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-            },
-        },
+            }
+        }
     },
 
     variants: {
@@ -20,5 +23,7 @@ module.exports = {
         },
     },
 
-    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+    plugins: [
+        forms, typography, aspect_ratio,
+    ],
 };

@@ -1,28 +1,46 @@
 {
   "name": "exitkiosk",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Close the tab which contains some word of your choice, by default is \"exitkiosk\"",
   "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danidoble/exitkiosk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danidoble/exitkiosk/issues"
+  },
+  "homepage": "https://github.com/danidoble/exitkiosk#readme",
   "scripts": {
-    "dev": "npm run development",
-    "development": "mix",
-    "watch": "mix watch",
-    "watch-poll": "mix watch -- --watch-options-poll=1000",
-    "hot": "mix watch --hot",
-    "prod": "npm run production",
-    "production": "mix --production"
+    "build": "vite build",
+    "dev": "vite",
+    "start": "vite preview",
+    "old.dev": "npm run development",
+    "old.development": "mix",
+    "old.watch": "mix watch",
+    "old.watch-poll": "mix watch -- --watch-options-poll=1000",
+    "old.hot": "mix watch --hot",
+    "old.prod": "npm run production",
+    "old.production": "mix --production"
   },
-  "keywords": [],
+  "keywords": [
+    "exitkiosk",
+    "exit kiosk mode browser",
+    "exit kiosk mode",
+    "exit kiosk"
+  ],
   "author": "Daniel Sandoval <danidoble>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5",
-    "@tailwindcss/typography": "^0.5",
-    "autoprefixer": "^10.4",
-    "laravel-mix": "^6.0",
-    "tailwindcss": "^3.0"
-  },
-  "dependencies": {
-    "postcss-import": "^14.0"
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.12",
+    "alpinejs": "^3.13.7",
+    "autoprefixer": "^10.4.19",
+    "laravel-vite-plugin": "^1.0.2",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.6"
   }
 }

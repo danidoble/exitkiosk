@@ -2,8 +2,8 @@
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version_name": "v1.1.1",
-  "version": "1.1.1",
+  "version_name": "v1.2.0",
+  "version": "1.2.0",
   "author": "Daniel Sandoval <danidoble>",
   "manifest_version": 3,
   "icons": {
@@ -17,7 +17,7 @@
     "512": "img/img_512.png"
   },
   "background": {
-    "service_worker": "dist/js/background.js"
+    "service_worker": "build/assets/background.js"
   },
   "permissions": [
     "tabs",
@@ -38,13 +38,9 @@
     "default_title": "Exit Kiosk",
     "default_popup": "popup.html"
   },
-  "externally_connectable": {
-    "matches": [
-      "*://localhost/*",
-      "*://*.danidoble.com/*",
-      "*://*.owldesarrollos.com/*",
-      "*://*.coincitymexico.com/*"
-    ]
-  },
-  "options_page": "config.html"
+  "options_page": "config.html",
+  "options_ui": {
+    "page": "config.html",
+    "open_in_tab": true
+  }
 }
