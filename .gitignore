@@ -7,3 +7,5 @@ vendor
 *tar.gz
 *.7z
 *.rar
+exitkiosk.pem
+exitkiosk.crx
