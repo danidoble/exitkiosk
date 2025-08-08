@@ -9,3 +9,4 @@ vendor
 *.rar
 exitkiosk.pem
 exitkiosk.crx
+bun.lock
