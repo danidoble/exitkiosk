@@ -3,6 +3,7 @@
     "file": "assets/app.css",
     "src": "resources/css/app.css",
     "isEntry": true,
+    "name": "app",
     "names": [
       "app.css"
     ]
