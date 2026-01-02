@@ -1,0 +1,116 @@
+{
+    "app_name": {
+        "message": "Exit Kiosk"
+    },
+    "app_description": {
+        "message": "ExitKiosk is a browser extension that helps you exit kiosk mode based on keywords."
+    },
+    "app_subtitle": {
+        "message": "Manage your kiosk exit keywords"
+    },
+    "app_keywords": {
+        "message": "Keywords"
+    },
+    "app_keywords_desc": {
+        "message": "Manage keywords to exit kiosk mode. At least one keyword is required."
+    },
+    "app_keyword_placeholder": {
+        "message": "Enter keyword..."
+    },
+    "app_settings": {
+        "message": "Settings"
+    },
+    "app_advanced": {
+        "message": "Advanced"
+    },
+    "app_general_settings": {
+        "message": "General Settings"
+    },
+    "app_enable": {
+        "message": "Enable ExitKiosk"
+    },
+    "app_enable_desc": {
+        "message": "Enable or disable the extension functionality"
+    },
+    "app_notify": {
+        "message": "Notifications"
+    },
+    "app_notify_desc": {
+        "message": "Notify when kiosk mode is exited"
+    },
+    "app_theme": {
+        "message": "Theme"
+    },
+    "app_save": {
+        "message": "Save"
+    },
+    "app_saved": {
+        "message": "Settings saved"
+    },
+    "app_reset": {
+        "message": "Reset Defaults"
+    },
+    "app_reset_desc": {
+        "message": "Reset all settings to their default values"
+    },
+    "app_reset_confirm_title": {
+        "message": "Are you sure?"
+    },
+    "app_reset_confirm_desc": {
+        "message": "This will reset all your keywords and settings to default. This action cannot be undone."
+    },
+    "app_clear_keywords": {
+        "message": "Clear all keywords"
+    },
+    "app_clear_keywords_desc": {
+        "message": "Delete all configured keywords (this cannot be undone)"
+    },
+    "app_clear_confirm_title": {
+        "message": "Clear all keywords?"
+    },
+    "app_clear_confirm_desc": {
+        "message": "This will remove all your keywords. You will need to add at least one to continue."
+    },
+    "app_backup": {
+        "message": "Backup & Restore"
+    },
+    "app_backup_desc": {
+        "message": "Export your settings to a file or restore from a backup."
+    },
+    "app_export": {
+        "message": "Export Settings"
+    },
+    "app_import": {
+        "message": "Import Settings"
+    },
+    "app_import_success": {
+        "message": "Settings imported successfully"
+    },
+    "app_import_error": {
+        "message": "Invalid configuration file"
+    },
+    "notification_event": {
+        "message": "Restricted page closed"
+    },
+    "app_cancel": {
+        "message": "Cancel"
+    },
+    "app_buy_coffee": {
+        "message": "Buy me a coffee"
+    },
+    "app_confirm": {
+        "message": "Confirm"
+    },
+    "app_delete_keyword": {
+        "message": "Delete keyword"
+    },
+    "app_theme_light": {
+        "message": "Light"
+    },
+    "app_theme_dark": {
+        "message": "Dark"
+    },
+    "app_theme_system": {
+        "message": "System"
+    }
+}

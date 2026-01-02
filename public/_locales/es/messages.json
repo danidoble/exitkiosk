@@ -1,0 +1,116 @@
+{
+    "app_name": {
+        "message": "Exit Kiosk"
+    },
+    "app_description": {
+        "message": "ExitKiosk es una extensión de navegador que te ayuda a salir del modo quiosco basándose en palabras clave."
+    },
+    "app_subtitle": {
+        "message": "Gestiona tus palabras clave de salida"
+    },
+    "app_keywords": {
+        "message": "Palabras Clave"
+    },
+    "app_keywords_desc": {
+        "message": "Gestiona las palabras clave para salir del modo quiosco. Se requiere al menos una palabra clave."
+    },
+    "app_keyword_placeholder": {
+        "message": "Ingresa una palabra clave..."
+    },
+    "app_settings": {
+        "message": "Configuración"
+    },
+    "app_advanced": {
+        "message": "Avanzado"
+    },
+    "app_general_settings": {
+        "message": "Configuración General"
+    },
+    "app_enable": {
+        "message": "Habilitar ExitKiosk"
+    },
+    "app_enable_desc": {
+        "message": "Habilita o deshabilita la funcionalidad de la extensión"
+    },
+    "app_notify": {
+        "message": "Notificaciones"
+    },
+    "app_notify_desc": {
+        "message": "Notificar cuando se salga del modo quiosco"
+    },
+    "app_theme": {
+        "message": "Tema"
+    },
+    "app_save": {
+        "message": "Guardar"
+    },
+    "app_saved": {
+        "message": "Configuración guardada"
+    },
+    "app_reset": {
+        "message": "Restablecer valores"
+    },
+    "app_reset_desc": {
+        "message": "Restablecer toda la configuración a los valores predeterminados"
+    },
+    "app_reset_confirm_title": {
+        "message": "¿Estás seguro?"
+    },
+    "app_reset_confirm_desc": {
+        "message": "Esto restablecerá todas tus palabras clave y configuraciones a los valores predeterminados. Esta acción no se puede deshacer."
+    },
+    "app_clear_keywords": {
+        "message": "Limpiar todas las palabras clave"
+    },
+    "app_clear_keywords_desc": {
+        "message": "Eliminar todas las palabras clave configuradas (no se puede deshacer)"
+    },
+    "app_clear_confirm_title": {
+        "message": "¿Limpiar todas las palabras clave?"
+    },
+    "app_clear_confirm_desc": {
+        "message": "Esto eliminará todas tus palabras clave. Necesitarás agregar al menos una para continuar."
+    },
+    "app_backup": {
+        "message": "Copia de Seguridad"
+    },
+    "app_backup_desc": {
+        "message": "Exporta tu configuración a un archivo o restaura desde una copia."
+    },
+    "app_export": {
+        "message": "Exportar"
+    },
+    "app_import": {
+        "message": "Importar"
+    },
+    "app_import_success": {
+        "message": "Configuración importada correctamente"
+    },
+    "app_import_error": {
+        "message": "Archivo de configuración inválido"
+    },
+    "notification_event": {
+        "message": "Página restringida cerrada"
+    },
+    "app_cancel": {
+        "message": "Cancelar"
+    },
+    "app_buy_coffee": {
+        "message": "Cómprame un café"
+    },
+    "app_confirm": {
+        "message": "Confirmar"
+    },
+    "app_delete_keyword": {
+        "message": "Eliminar palabra clave"
+    },
+    "app_theme_light": {
+        "message": "Claro"
+    },
+    "app_theme_dark": {
+        "message": "Oscuro"
+    },
+    "app_theme_system": {
+        "message": "Sistema"
+    }
+}

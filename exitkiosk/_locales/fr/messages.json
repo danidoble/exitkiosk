@@ -1,8 +1,0 @@
-{
-  "appName": {
-    "message": "Quitter le mode kiosque"
-  },
-  "appDesc": {
-    "message": "Fermez l'onglet qui contient le mot de votre choix, par défaut c'est \"exitkiosk\""
-  }
-}

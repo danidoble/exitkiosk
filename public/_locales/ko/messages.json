@@ -1,0 +1,116 @@
+{
+    "app_name": {
+        "message": "Exit Kiosk"
+    },
+    "app_description": {
+        "message": "ExitKiosk는 키워드를 기반으로 키오스크 모드를 종료하는 데 도움이 되는 브라우저 확장 프로그램입니다."
+    },
+    "app_subtitle": {
+        "message": "キオスク終了キーワードの管理"
+    },
+    "app_keywords": {
+        "message": "키워드"
+    },
+    "app_keywords_desc": {
+        "message": "키오스크 모드를 종료할 키워드를 관리합니다. 최소 하나의 키워드가 필요합니다."
+    },
+    "app_keyword_placeholder": {
+        "message": "키워드 입력..."
+    },
+    "app_settings": {
+        "message": "설정"
+    },
+    "app_advanced": {
+        "message": "고급"
+    },
+    "app_general_settings": {
+        "message": "일반 설정"
+    },
+    "app_enable": {
+        "message": "ExitKiosk 활성화"
+    },
+    "app_enable_desc": {
+        "message": "확장 기능 활성화 또는 비활성화"
+    },
+    "app_notify": {
+        "message": "알림"
+    },
+    "app_notify_desc": {
+        "message": "키오스크 모드 종료 시 알림"
+    },
+    "app_theme": {
+        "message": "테마"
+    },
+    "app_save": {
+        "message": "저장"
+    },
+    "app_saved": {
+        "message": "설정이 저장되었습니다"
+    },
+    "app_reset": {
+        "message": "초기화"
+    },
+    "app_reset_desc": {
+        "message": "모든 설정을 기본값으로 초기화"
+    },
+    "app_reset_confirm_title": {
+        "message": "확실합니까?"
+    },
+    "app_reset_confirm_desc": {
+        "message": "모든 키워드와 설정이 초기화됩니다. 이 작업은 취소할 수 없습니다."
+    },
+    "app_clear_keywords": {
+        "message": "모든 키워드 지우기"
+    },
+    "app_clear_keywords_desc": {
+        "message": "구성된 모든 키워드 삭제 (취소할 수 없음)"
+    },
+    "app_clear_confirm_title": {
+        "message": "모든 키워드를 지우시겠습니까?"
+    },
+    "app_clear_confirm_desc": {
+        "message": "이렇게 하면 모든 키워드가 제거됩니다. 계속하려면 하나 이상의 키워드를 추가해야 합니다."
+    },
+    "app_backup": {
+        "message": "백업 및 복원"
+    },
+    "app_backup_desc": {
+        "message": "설정을 파일로 내보내거나 백업에서 복원합니다."
+    },
+    "app_export": {
+        "message": "내보내기"
+    },
+    "app_import": {
+        "message": "가져오기"
+    },
+    "app_import_success": {
+        "message": "설정이 성공적으로 가져왔습니다"
+    },
+    "app_import_error": {
+        "message": "잘못된 구성 파일입니다"
+    },
+    "notification_event": {
+        "message": "제한된 페이지가 닫혔습니다"
+    },
+    "app_cancel": {
+        "message": "취소"
+    },
+    "app_buy_coffee": {
+        "message": "커피 한 잔 사주기"
+    },
+    "app_confirm": {
+        "message": "확인"
+    },
+    "app_delete_keyword": {
+        "message": "키워드 삭제"
+    },
+    "app_theme_light": {
+        "message": "라이트"
+    },
+    "app_theme_dark": {
+        "message": "다크"
+    },
+    "app_theme_system": {
+        "message": "시스템"
+    }
+}

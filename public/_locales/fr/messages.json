@@ -1,0 +1,116 @@
+{
+    "app_name": {
+        "message": "Exit Kiosk"
+    },
+    "app_description": {
+        "message": "ExitKiosk est une extension de navigateur qui vous aide à quitter le mode kiosque en fonction de mots-clés."
+    },
+    "app_subtitle": {
+        "message": "Gérez vos mots-clés de sortie de kiosque"
+    },
+    "app_keywords": {
+        "message": "Mots-clés"
+    },
+    "app_keywords_desc": {
+        "message": "Gérez les mots-clés pour sortir du mode kiosque. Au moins un mot-clé est requis."
+    },
+    "app_keyword_placeholder": {
+        "message": "Entrez un mot-clé..."
+    },
+    "app_settings": {
+        "message": "Paramètres"
+    },
+    "app_advanced": {
+        "message": "Avancé"
+    },
+    "app_general_settings": {
+        "message": "Paramètres généraux"
+    },
+    "app_enable": {
+        "message": "Activer ExitKiosk"
+    },
+    "app_enable_desc": {
+        "message": "Activer ou désactiver la fonctionnalité de l'extension"
+    },
+    "app_notify": {
+        "message": "Notifications"
+    },
+    "app_notify_desc": {
+        "message": "Notifier lors de la sortie du mode kiosque"
+    },
+    "app_theme": {
+        "message": "Thème"
+    },
+    "app_save": {
+        "message": "Enregistrer"
+    },
+    "app_saved": {
+        "message": "Paramètres enregistrés"
+    },
+    "app_reset": {
+        "message": "Réinitialiser"
+    },
+    "app_reset_desc": {
+        "message": "Réinitialiser tous les paramètres aux valeurs par défaut"
+    },
+    "app_reset_confirm_title": {
+        "message": "Êtes-vous sûr ?"
+    },
+    "app_reset_confirm_desc": {
+        "message": "Cela réinitialisera tous vos mots-clés et paramètres par défaut. Cette action est irréversible."
+    },
+    "app_clear_keywords": {
+        "message": "Effacer tous les mots-clés"
+    },
+    "app_clear_keywords_desc": {
+        "message": "Supprimer tous les mots-clés configurés (irréversible)"
+    },
+    "app_clear_confirm_title": {
+        "message": "Effacer tous les mots-clés ?"
+    },
+    "app_clear_confirm_desc": {
+        "message": "Cela supprimera tous vos mots-clés. Vous devrez en ajouter au moins un pour continuer."
+    },
+    "app_backup": {
+        "message": "Sauvegarde et Restauration"
+    },
+    "app_backup_desc": {
+        "message": "Exportez vos paramètres ou restaurez à partir d'une sauvegarde."
+    },
+    "app_export": {
+        "message": "Exporter"
+    },
+    "app_import": {
+        "message": "Importer"
+    },
+    "app_import_success": {
+        "message": "Paramètres importés avec succès"
+    },
+    "app_import_error": {
+        "message": "Fichier de configuration invalide"
+    },
+    "notification_event": {
+        "message": "Page restreinte fermée"
+    },
+    "app_cancel": {
+        "message": "Annuler"
+    },
+    "app_buy_coffee": {
+        "message": "Offrez-moi un café"
+    },
+    "app_confirm": {
+        "message": "Confirmer"
+    },
+    "app_delete_keyword": {
+        "message": "Supprimer le mot-clé"
+    },
+    "app_theme_light": {
+        "message": "Clair"
+    },
+    "app_theme_dark": {
+        "message": "Sombre"
+    },
+    "app_theme_system": {
+        "message": "Système"
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "app_name": {
+        "message": "Exit Kiosk"
+    },
+    "app_description": {
+        "message": "ExitKioskは、キーワードに基づいてキオスクモードを終了するのに役立つブラウザ拡張機能です。"
+    },
+    "app_subtitle": {
+        "message": "キオスク終了キーワードの管理"
+    },
+    "app_keywords": {
+        "message": "キーワード"
+    },
+    "app_keywords_desc": {
+        "message": "キオスクモードを終了するためのキーワードを管理します。少なくとも1つのキーワードが必要です。"
+    },
+    "app_keyword_placeholder": {
+        "message": "キーワードを入力..."
+    },
+    "app_settings": {
+        "message": "設定"
+    },
+    "app_advanced": {
+        "message": "詳細設定"
+    },
+    "app_general_settings": {
+        "message": "一般設定"
+    },
+    "app_enable": {
+        "message": "ExitKioskを有効にする"
+    },
+    "app_enable_desc": {
+        "message": "拡張機能の機能を有効または無効にします"
+    },
+    "app_notify": {
+        "message": "通知"
+    },
+    "app_notify_desc": {
+        "message": "キオスクモード終了時に通知する"
+    },
+    "app_theme": {
+        "message": "テーマ"
+    },
+    "app_save": {
+        "message": "保存"
+    },
+    "app_saved": {
+        "message": "設定を保存しました"
+    },
+    "app_reset": {
+        "message": "初期設定に戻す"
+    },
+    "app_reset_desc": {
+        "message": "すべての設定を初期値に戻します"
+    },
+    "app_reset_confirm_title": {
+        "message": "よろしいですか？"
+    },
+    "app_reset_confirm_desc": {
+        "message": "すべてのキーワードと設定が初期値にリセットされます。この操作は取り消せません。"
+    },
+    "app_clear_keywords": {
+        "message": "すべてのキーワードを削除"
+    },
+    "app_clear_keywords_desc": {
+        "message": "設定されたすべてのキーワードを削除します（取り消せません）"
+    },
+    "app_clear_confirm_title": {
+        "message": "すべてのキーワードを削除しますか？"
+    },
+    "app_clear_confirm_desc": {
+        "message": "これにより、すべてのキーワードが削除されます。続行するには、少なくとも1つのキーワードを追加する必要があります。"
+    },
+    "app_backup": {
+        "message": "バックアップと復元"
+    },
+    "app_backup_desc": {
+        "message": "設定をファイルにエクスポートするか、バックアップから復元します。"
+    },
+    "app_export": {
+        "message": "エクスポート"
+    },
+    "app_import": {
+        "message": "インポート"
+    },
+    "app_import_success": {
+        "message": "設定が正常にインポートされました"
+    },
+    "app_import_error": {
+        "message": "無効な設定ファイルです"
+    },
+    "notification_event": {
+        "message": "制限されたページが閉じられました"
+    },
+    "app_cancel": {
+        "message": "キャンセル"
+    },
+    "app_buy_coffee": {
+        "message": "コーヒーを奢る"
+    },
+    "app_confirm": {
+        "message": "確認"
+    },
+    "app_delete_keyword": {
+        "message": "キーワードを削除"
+    },
+    "app_theme_light": {
+        "message": "ライト"
+    },
+    "app_theme_dark": {
+        "message": "ダーク"
+    },
+    "app_theme_system": {
+        "message": "システム"
+    }
+}

@@ -1,8 +1,0 @@
-{
-  "appName": {
-    "message": "キオスクを終了します"
-  },
-  "appDesc": {
-    "message": "単語を含むタブを閉じます。 デフォルト値は「exitkiosk」です。"
-  }
-}

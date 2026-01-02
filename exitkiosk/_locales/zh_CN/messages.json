@@ -1,8 +1,0 @@
-{
-  "appName": {
-    "message": "退出自助服务终端模式"
-  },
-  "appDesc": {
-    "message": "关闭包含您选择的任何单词的选项卡，默认情况下它是“exitkiosk”"
-  }
-}

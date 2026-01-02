@@ -1,0 +1,116 @@
+{
+    "app_name": {
+        "message": "Exit Kiosk"
+    },
+    "app_description": {
+        "message": "ExitKiosk 是一个浏览器扩展，可帮助您根据关键字退出 Kiosk 模式。"
+    },
+    "app_subtitle": {
+        "message": "管理您的退出关键词"
+    },
+    "app_keywords": {
+        "message": "关键词"
+    },
+    "app_keywords_desc": {
+        "message": "管理用于退出 Kiosk 模式的关键词。至少需要一个关键词。"
+    },
+    "app_keyword_placeholder": {
+        "message": "输入关键词..."
+    },
+    "app_settings": {
+        "message": "设置"
+    },
+    "app_advanced": {
+        "message": "高级"
+    },
+    "app_general_settings": {
+        "message": "通用设置"
+    },
+    "app_enable": {
+        "message": "启用 ExitKiosk"
+    },
+    "app_enable_desc": {
+        "message": "启用或禁用扩展功能"
+    },
+    "app_notify": {
+        "message": "通知"
+    },
+    "app_notify_desc": {
+        "message": "退出 Kiosk 模式时通知"
+    },
+    "app_theme": {
+        "message": "主题"
+    },
+    "app_save": {
+        "message": "保存"
+    },
+    "app_saved": {
+        "message": "设置已保存"
+    },
+    "app_reset": {
+        "message": "重置"
+    },
+    "app_reset_desc": {
+        "message": "将所有设置重置为默认值"
+    },
+    "app_reset_confirm_title": {
+        "message": "您确定吗？"
+    },
+    "app_reset_confirm_desc": {
+        "message": "这将重置您的所有关键词和设置。此操作无法撤销。"
+    },
+    "app_clear_keywords": {
+        "message": "清除所有关键词"
+    },
+    "app_clear_keywords_desc": {
+        "message": "删除所有配置的关键词（无法撤销）"
+    },
+    "app_clear_confirm_title": {
+        "message": "清除所有关键词？"
+    },
+    "app_clear_confirm_desc": {
+        "message": "这将删除您的所有关键词。您需要至少添加一个关键词才能继续。"
+    },
+    "app_backup": {
+        "message": "备份与恢复"
+    },
+    "app_backup_desc": {
+        "message": "将设置导出到文件或从备份恢复。"
+    },
+    "app_export": {
+        "message": "导出"
+    },
+    "app_import": {
+        "message": "导入"
+    },
+    "app_import_success": {
+        "message": "设置导入成功"
+    },
+    "app_import_error": {
+        "message": "无效的配置文件"
+    },
+    "notification_event": {
+        "message": "受限页面已关闭"
+    },
+    "app_cancel": {
+        "message": "取消"
+    },
+    "app_buy_coffee": {
+        "message": "请我喝杯咖啡"
+    },
+    "app_confirm": {
+        "message": "确认"
+    },
+    "app_delete_keyword": {
+        "message": "删除关键词"
+    },
+    "app_theme_light": {
+        "message": "浅色"
+    },
+    "app_theme_dark": {
+        "message": "深色"
+    },
+    "app_theme_system": {
+        "message": "系统"
+    }
+}
