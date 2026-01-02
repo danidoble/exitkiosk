@@ -16,16 +16,8 @@
         "page": "src/options.html",
         "open_in_tab": true
     },
-    "permissions": [
-        "notifications",
-        "storage",
-        "tabs",
-        "background"
-    ],
-    "host_permissions": [
-        "http://*/",
-        "https://*/"
-    ],
+    "permissions": ["notifications", "storage", "tabs", "background"],
+    "host_permissions": ["http://*/", "https://*/"],
     "icons": {
         "16": "img/icon-16.png",
         "24": "img/icon-24.png",

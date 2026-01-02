@@ -25,4 +25,3 @@ Al instalar la extensión "Exitkiosk", el usuario da su consentimiento para la r
 ## Contacto
 
 Si tienes alguna pregunta o inquietud sobre esta política de privacidad o el manejo de datos por parte de la extensión "Exitkiosk", puedes ponerte en contacto con nosotros a través de el correo presentado en la página oficial de la extension o [aquí](https://github.com/danidoble/exitkiosk/issues).
-
